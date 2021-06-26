@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Evento</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Evento.EntityFrameworkCore.DbMigrations\Evento.EntityFrameworkCore.DbMigrations.csproj" />
+    <ProjectReference Include="..\Evento.TestBase\Evento.TestBase.csproj" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="4.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.1" />
+  </ItemGroup>
+
+</Project>
