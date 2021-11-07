@@ -2,8 +2,16 @@
   "culture": "en",
   "texts": {
     "Menu:Home": "Home",
+    "Free": "FREE",
     "Welcome": "Welcome",
     "CreateEvent": "Create a new event!",
-    "LongWelcomeMessage": "Welcome to the application. This is a startup project based on the ABP framework. For more information, visit abp.io."
+    "Back": "Back",
+    "Delete": "Delete",
+    "Start-time": "Start time",
+    "You-are-registered-in-this-event":"You are registered in this event",
+    "Register-now": "Register now!",
+    "Cancel-Registration": "Cancel registration!",
+    "Login-to-attend": "Login to attend!",
+    "Attendees": "Attendees"
   }
 }
