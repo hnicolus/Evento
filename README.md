@@ -40,9 +40,6 @@ or go to the DbMigrator project and run type `dotnet run`
 3. run `dotnet restore` 
 4. Navigate to `src/Evento.Web` and run `dotnet run` 
 
-## Overview
-
-<img src="https://github.com/abpframework/abp/blob/dev/docs/en/images/ddd-microservice-simple.png"/>
 
 ### Domain
 
